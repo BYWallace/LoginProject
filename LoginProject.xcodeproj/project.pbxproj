@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE250DA71B1E51DB005B453A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE250DA61B1E51DB005B453A /* AppDelegate.swift */; };
+		FE250DA91B1E51DB005B453A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE250DA81B1E51DB005B453A /* ViewController.swift */; };
+		FE250DAC1B1E51DB005B453A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE250DAA1B1E51DB005B453A /* Main.storyboard */; };
+		FE250DAE1B1E51DB005B453A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE250DAD1B1E51DB005B453A /* Images.xcassets */; };
+		FE250DB11B1E51DB005B453A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE250DAF1B1E51DB005B453A /* LaunchScreen.xib */; };
+		FE250DBD1B1E51DB005B453A /* LoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE250DBC1B1E51DB005B453A /* LoginProjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE250DB71B1E51DB005B453A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE250D991B1E51DB005B453A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE250DA01B1E51DB005B453A;
+			remoteInfo = LoginProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE250DA11B1E51DB005B453A /* LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE250DA51B1E51DB005B453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE250DA61B1E51DB005B453A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE250DA81B1E51DB005B453A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE250DAB1B1E51DB005B453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE250DAD1B1E51DB005B453A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE250DB01B1E51DB005B453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE250DB61B1E51DB005B453A /* LoginProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE250DBB1B1E51DB005B453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE250DBC1B1E51DB005B453A /* LoginProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE250D9E1B1E51DB005B453A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE250DB31B1E51DB005B453A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE250D981B1E51DB005B453A = {
+			isa = PBXGroup;
+			children = (
+				FE250DA31B1E51DB005B453A /* LoginProject */,
+				FE250DB91B1E51DB005B453A /* LoginProjectTests */,
+				FE250DA21B1E51DB005B453A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE250DA21B1E51DB005B453A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE250DA11B1E51DB005B453A /* LoginProject.app */,
+				FE250DB61B1E51DB005B453A /* LoginProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE250DA31B1E51DB005B453A /* LoginProject */ = {
+			isa = PBXGroup;
+			children = (
+				FE250DA61B1E51DB005B453A /* AppDelegate.swift */,
+				FE250DA81B1E51DB005B453A /* ViewController.swift */,
+				FE250DAA1B1E51DB005B453A /* Main.storyboard */,
+				FE250DAD1B1E51DB005B453A /* Images.xcassets */,
+				FE250DAF1B1E51DB005B453A /* LaunchScreen.xib */,
+				FE250DA41B1E51DB005B453A /* Supporting Files */,
+			);
+			path = LoginProject;
+			sourceTree = "<group>";
+		};
+		FE250DA41B1E51DB005B453A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE250DA51B1E51DB005B453A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE250DB91B1E51DB005B453A /* LoginProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE250DBC1B1E51DB005B453A /* LoginProjectTests.swift */,
+				FE250DBA1B1E51DB005B453A /* Supporting Files */,
+			);
+			path = LoginProjectTests;
+			sourceTree = "<group>";
+		};
+		FE250DBA1B1E51DB005B453A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE250DBB1B1E51DB005B453A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE250DA01B1E51DB005B453A /* LoginProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE250DC01B1E51DB005B453A /* Build configuration list for PBXNativeTarget "LoginProject" */;
+			buildPhases = (
+				FE250D9D1B1E51DB005B453A /* Sources */,
+				FE250D9E1B1E51DB005B453A /* Frameworks */,
+				FE250D9F1B1E51DB005B453A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginProject;
+			productName = LoginProject;
+			productReference = FE250DA11B1E51DB005B453A /* LoginProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE250DB51B1E51DB005B453A /* LoginProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE250DC31B1E51DB005B453A /* Build configuration list for PBXNativeTarget "LoginProjectTests" */;
+			buildPhases = (
+				FE250DB21B1E51DB005B453A /* Sources */,
+				FE250DB31B1E51DB005B453A /* Frameworks */,
+				FE250DB41B1E51DB005B453A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE250DB81B1E51DB005B453A /* PBXTargetDependency */,
+			);
+			name = LoginProjectTests;
+			productName = LoginProjectTests;
+			productReference = FE250DB61B1E51DB005B453A /* LoginProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE250D991B1E51DB005B453A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Brett Wallace";
+				TargetAttributes = {
+					FE250DA01B1E51DB005B453A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FE250DB51B1E51DB005B453A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FE250DA01B1E51DB005B453A;
+					};
+				};
+			};
+			buildConfigurationList = FE250D9C1B1E51DB005B453A /* Build configuration list for PBXProject "LoginProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE250D981B1E51DB005B453A;
+			productRefGroup = FE250DA21B1E51DB005B453A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE250DA01B1E51DB005B453A /* LoginProject */,
+				FE250DB51B1E51DB005B453A /* LoginProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE250D9F1B1E51DB005B453A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE250DAC1B1E51DB005B453A /* Main.storyboard in Resources */,
+				FE250DB11B1E51DB005B453A /* LaunchScreen.xib in Resources */,
+				FE250DAE1B1E51DB005B453A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE250DB41B1E51DB005B453A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE250D9D1B1E51DB005B453A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE250DA91B1E51DB005B453A /* ViewController.swift in Sources */,
+				FE250DA71B1E51DB005B453A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE250DB21B1E51DB005B453A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE250DBD1B1E51DB005B453A /* LoginProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE250DB81B1E51DB005B453A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE250DA01B1E51DB005B453A /* LoginProject */;
+			targetProxy = FE250DB71B1E51DB005B453A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE250DAA1B1E51DB005B453A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE250DAB1B1E51DB005B453A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE250DAF1B1E51DB005B453A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE250DB01B1E51DB005B453A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE250DBE1B1E51DB005B453A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE250DBF1B1E51DB005B453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE250DC11B1E51DB005B453A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE250DC21B1E51DB005B453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE250DC41B1E51DB005B453A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginProject.app/LoginProject";
+			};
+			name = Debug;
+		};
+		FE250DC51B1E51DB005B453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginProject.app/LoginProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE250D9C1B1E51DB005B453A /* Build configuration list for PBXProject "LoginProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE250DBE1B1E51DB005B453A /* Debug */,
+				FE250DBF1B1E51DB005B453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE250DC01B1E51DB005B453A /* Build configuration list for PBXNativeTarget "LoginProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE250DC11B1E51DB005B453A /* Debug */,
+				FE250DC21B1E51DB005B453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE250DC31B1E51DB005B453A /* Build configuration list for PBXNativeTarget "LoginProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE250DC41B1E51DB005B453A /* Debug */,
+				FE250DC51B1E51DB005B453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE250D991B1E51DB005B453A /* Project object */;
+}
