@@ -31,7 +31,14 @@ class LoginViewController: UIViewController, CreateAccountViewControllerDelegate
     }
     
     @IBAction func loginButtonPressed(sender: UIButton) {
-        self.performSegueWithIdentifier("loginToMainSegue", sender: self)
+        let usernameSavedFromNSUserDefaults = NSUserDefaults.standardUserDefaults().objectForKey(kUsernameKey) as! String
+        println(usernameSavedFromNSUserDefaults)
+        let passwordSavedFromNSUserDefaults = NSUserDefaults.standardUserDefaults().objectForKey(kPasswordKey) as! String
+        println(passwordSavedFromNSUserDefaults)
+        
+        if usernameTextField.text == usernameSavedFromNSUserDefaults && passwordTextField.text == passwordSavedFromNSUserDefaults {
+            self.performSegueWithIdentifier("loginToMainSegue", sender: self)
+        }
     }
     
     @IBAction func createAccountButtonPressed(sender: UIButton) {
